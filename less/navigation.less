@@ -1,1 +1,32 @@
-// Navigation Styles here
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+
+  nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    a {
+      text-decoration: none;
+      color: @font-color;
+      font-size: 1.6rem;
+    }
+  }
+
+  @media @mobile {
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+
+    padding: 0;
+    nav {
+      justify-content: space-around;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        
+        width: 100%;
+    }
+  }
+}
