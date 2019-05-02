@@ -345,6 +345,6 @@ img {
     opacity: 1;
   }
 }
-body {
+.main-content {
   animation: fadeIn 1s linear forwards;
 }
